@@ -1,0 +1,24 @@
+# Environment & Secrets
+.env
+*.env.local
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Local Draft Articles
+articles/*
+!articles/.gitkeep
+
+# IDE & OS Specific
+.vscode/
+.DS_Store
+Thumbs.db
